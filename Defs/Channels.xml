@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TVChannels.ChannelDef>
+        <defName>Channel2Input</defName>
+        <showWorker>TVChannels.ShowWorkerOrdinal</showWorker>
+        <shows>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.08</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>vhs/frame_0_delay-0.08s</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>vhs/frame_1_delay-0.08s</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>vhs/frame_2_delay-0.08s</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>vhs/frame_3_delay-0.08s</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>vhs/frame_4_delay-0.08s</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+    <TVChannels.ChannelDef>
+        <defName>News</defName>
+        <showWorker>TVChannels.ShowWorkerOrdinal</showWorker>
+        <shows>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>others/channel1_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>others/channel1_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+    <TVChannels.ChannelDef>
+        <defName>Cooking</defName>
+        <showWorker>TVChannels.ShowWorkerOrdinal</showWorker>
+        <shows>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>others/channel2_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>others/channel2_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+    <TVChannels.ChannelDef>
+        <defName>News2</defName>
+        <showWorker>TVChannels.ShowWorkerRandom</showWorker>
+        <shows>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>others/channel3_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>others/channel3_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>others/channel3_A</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>others/channel1_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>others/channel1_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+    <TVChannels.ChannelDef>
+        <defName>Magic</defName>
+        <showWorker>TVChannels.ShowWorkerOrdinal</showWorker>
+        <shows>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>others/channel4_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>others/channel4_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+    <TVChannels.ChannelDef>
+        <defName>News</defName>
+        <showWorker>TVChannels.ShowWorkerOrdinal</showWorker>
+        <shows>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>others/channel1_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>others/channel1_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+    
+</Defs>

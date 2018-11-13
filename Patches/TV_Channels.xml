@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = 'TubeTelevision' or defName = 'FlatscreenTelevision' or defName =
+            'MegascreenTelevision']
+        </xpath>
+        <value>
+            <drawerType>RealtimeOnly</drawerType>
+            <tickerType>Normal</tickerType>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = 'TubeTelevision']/comps</xpath>
+        <value>
+            <li Class="TVChannels.CompProp_TV">
+                <xOffset>-.10</xOffset>
+                <yOffset>-.10</yOffset>
+                <xScale>.55</xScale>
+                <yScale>.4</yScale>
+                <channels>
+                    <li>Channel2Input</li>
+                    <li>Crops</li>
+                    <li>News</li>
+                    <li>Magic</li>
+                    <li>Princess</li>
+                    <li>Travel</li>
+                </channels>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = 'FlatscreenTelevision']/comps</xpath>
+        <value>
+            <li Class="TVChannels.CompProp_TV">
+                <yOffset>.03</yOffset>
+                <xScale>1.8</xScale>
+                <yScale>.75</yScale>
+
+                <channels>
+                    <li>Channel2Input</li>
+                    <li>Crops</li>
+                    <li>News2</li>
+                    <li>Magic</li>
+                    <li>Princess</li>
+                    <li>Travel</li>
+                </channels>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = 'MegascreenTelevision']/comps</xpath>
+        <value>
+            <li Class="TVChannels.CompProp_TV">
+                <yOffset>.05</yOffset>
+                <xScale>2.9</xScale>
+                <yScale>.78 </yScale>
+                <channels>
+                    <li>Channel2Input</li>
+                    <li>Crops</li>
+                    <li>News2</li>
+                    <li>Magic</li>
+                    <li>Princess</li>
+                    <li>Travel</li>
+                </channels>
+            </li>
+        </value>
+    </Operation>
+</Patch>

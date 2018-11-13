@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TVChannels.ChannelDef>
+        <defName>Travel</defName>
+        <secondsBetweenShows>4.5</secondsBetweenShows>
+        <showWorker>TVChannels.ShowWorkerRandom</showWorker>
+        <shows>
+
+
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG01.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG02.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG03.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG04.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG05.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG06.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG07.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG08.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG09.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG10.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG11.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG12.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG13.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG14.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG14N.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG15.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG16.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG17.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG18.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG19.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>travel/BG20.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+</Defs>

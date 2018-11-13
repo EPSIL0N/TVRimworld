@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7D21B4A-1DA7-41D8-B202-C58CA8FA62AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TV_Channels</RootNamespace>
+    <AssemblyName>TV_Channels</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\TV_Channels - Release\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=1.0.6864.30166, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CompAnimated, Version=1.18.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\workshop\content\294100\932008009\Assemblies\CompAnimated.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <None Include="..\About\**" />
+    <None Include="..\Defs\**" />
+    <None Include="..\Languages\**" />
+    <None Include="..\Patches\**" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Channel.cs" />
+    <Compile Include="CompProp_TV.cs" />
+    <Compile Include="CompTVFlick.cs" />
+    <Compile Include="ShowWorkerOrdinal.cs" />
+    <Compile Include="ChannelDef.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Textures\others\channel3_0.png" />
+    <Content Include="..\Textures\others\channel1_0.png" />
+    <Content Include="..\Textures\others\channel1_1.png" />
+    <Content Include="..\Textures\others\channel2_0.png" />
+    <Content Include="..\Textures\others\channel2_1.png" />
+    <Content Include="..\Textures\others\channel3_1.png" />
+    <Content Include="..\Textures\others\channel3_A.png" />
+    <Content Include="..\Textures\others\channel4_0.png" />
+    <Content Include="..\Textures\others\channel4_1.png" />
+    <Content Include="..\Textures\crops\crop_10_1.png" />
+    <Content Include="..\Textures\crops\crop_10_2.png" />
+    <Content Include="..\Textures\crops\crop_10_3.png" />
+    <Content Include="..\Textures\crops\crop_10_4.png" />
+    <Content Include="..\Textures\crops\crop_10_5.png" />
+    <Content Include="..\Textures\crops\crop_10_6.png" />
+    <Content Include="..\Textures\crops\crop_10_7.png" />
+    <Content Include="..\Textures\crops\crop_11_0.png" />
+    <Content Include="..\Textures\crops\crop_11_1.png" />
+    <Content Include="..\Textures\crops\crop_11_2.png" />
+    <Content Include="..\Textures\crops\crop_11_3.png" />
+    <Content Include="..\Textures\crops\crop_11_4.png" />
+    <Content Include="..\Textures\crops\crop_11_5.png" />
+    <Content Include="..\Textures\crops\crop_11_6.png" />
+    <Content Include="..\Textures\crops\crop_11_7.png" />
+    <Content Include="..\Textures\crops\crop_12_1.png" />
+    <Content Include="..\Textures\crops\crop_12_2.png" />
+    <Content Include="..\Textures\crops\crop_12_3.png" />
+    <Content Include="..\Textures\crops\crop_12_4.png" />
+    <Content Include="..\Textures\crops\crop_12_5.png" />
+    <Content Include="..\Textures\crops\crop_12_6.png" />
+    <Content Include="..\Textures\crops\crop_12_7.png" />
+    <Content Include="..\Textures\crops\crop_13_0.png" />
+    <Content Include="..\Textures\crops\crop_13_1.png" />
+    <Content Include="..\Textures\crops\crop_13_2.png" />
+    <Content Include="..\Textures\crops\crop_13_3.png" />
+    <Content Include="..\Textures\crops\crop_13_4.png" />
+    <Content Include="..\Textures\crops\crop_13_5.png" />
+    <Content Include="..\Textures\crops\crop_13_6.png" />
+    <Content Include="..\Textures\crops\crop_13_7.png" />
+    <Content Include="..\Textures\crops\crop_14_1.png" />
+    <Content Include="..\Textures\crops\crop_14_2.png" />
+    <Content Include="..\Textures\crops\crop_14_3.png" />
+    <Content Include="..\Textures\crops\crop_14_4.png" />
+    <Content Include="..\Textures\crops\crop_14_5.png" />
+    <Content Include="..\Textures\crops\crop_14_6.png" />
+    <Content Include="..\Textures\crops\crop_14_7.png" />
+    <Content Include="..\Textures\crops\crop_15_0.png" />
+    <Content Include="..\Textures\crops\crop_15_1.png" />
+    <Content Include="..\Textures\crops\crop_15_2.png" />
+    <Content Include="..\Textures\crops\crop_15_3.png" />
+    <Content Include="..\Textures\crops\crop_15_4.png" />
+    <Content Include="..\Textures\crops\crop_15_5.png" />
+    <Content Include="..\Textures\crops\crop_15_6.png" />
+    <Content Include="..\Textures\crops\crop_15_7.png" />
+    <Content Include="..\Textures\crops\crop_16_1.png" />
+    <Content Include="..\Textures\crops\crop_16_2.png" />
+    <Content Include="..\Textures\crops\crop_16_3.png" />
+    <Content Include="..\Textures\crops\crop_16_4.png" />
+    <Content Include="..\Textures\crops\crop_16_5.png" />
+    <Content Include="..\Textures\crops\crop_16_6.png" />
+    <Content Include="..\Textures\crops\crop_16_7.png" />
+    <Content Include="..\Textures\crops\crop_17_0.png" />
+    <Content Include="..\Textures\crops\crop_17_1.png" />
+    <Content Include="..\Textures\crops\crop_17_2.png" />
+    <Content Include="..\Textures\crops\crop_17_3.png" />
+    <Content Include="..\Textures\crops\crop_17_4.png" />
+    <Content Include="..\Textures\crops\crop_17_5.png" />
+    <Content Include="..\Textures\crops\crop_17_6.png" />
+    <Content Include="..\Textures\crops\crop_17_7.png" />
+    <Content Include="..\Textures\crops\crop_18_1.png" />
+    <Content Include="..\Textures\crops\crop_18_2.png" />
+    <Content Include="..\Textures\crops\crop_18_3.png" />
+    <Content Include="..\Textures\crops\crop_18_4.png" />
+    <Content Include="..\Textures\crops\crop_18_5.png" />
+    <Content Include="..\Textures\crops\crop_18_6.png" />
+    <Content Include="..\Textures\crops\crop_18_7.png" />
+    <Content Include="..\Textures\crops\crop_19_0.png" />
+    <Content Include="..\Textures\crops\crop_19_1.png" />
+    <Content Include="..\Textures\crops\crop_19_2.png" />
+    <Content Include="..\Textures\crops\crop_19_3.png" />
+    <Content Include="..\Textures\crops\crop_19_4.png" />
+    <Content Include="..\Textures\crops\crop_19_5.png" />
+    <Content Include="..\Textures\crops\crop_19_6.png" />
+    <Content Include="..\Textures\crops\crop_19_7.png" />
+    <Content Include="..\Textures\crops\crop_1_0.png" />
+    <Content Include="..\Textures\crops\crop_1_1.png" />
+    <Content Include="..\Textures\crops\crop_1_2.png" />
+    <Content Include="..\Textures\crops\crop_1_3.png" />
+    <Content Include="..\Textures\crops\crop_1_4.png" />
+    <Content Include="..\Textures\crops\crop_1_5.png" />
+    <Content Include="..\Textures\crops\crop_1_6.png" />
+    <Content Include="..\Textures\crops\crop_1_7.png" />
+    <Content Include="..\Textures\crops\crop_20_1.png" />
+    <Content Include="..\Textures\crops\crop_20_2.png" />
+    <Content Include="..\Textures\crops\crop_20_3.png" />
+    <Content Include="..\Textures\crops\crop_20_4.png" />
+    <Content Include="..\Textures\crops\crop_20_5.png" />
+    <Content Include="..\Textures\crops\crop_20_6.png" />
+    <Content Include="..\Textures\crops\crop_20_7.png" />
+    <Content Include="..\Textures\crops\crop_21_0.png" />
+    <Content Include="..\Textures\crops\crop_21_1.png" />
+    <Content Include="..\Textures\crops\crop_21_2.png" />
+    <Content Include="..\Textures\crops\crop_21_3.png" />
+    <Content Include="..\Textures\crops\crop_21_4.png" />
+    <Content Include="..\Textures\crops\crop_21_5.png" />
+    <Content Include="..\Textures\crops\crop_21_6.png" />
+    <Content Include="..\Textures\crops\crop_21_7.png" />
+    <Content Include="..\Textures\crops\crop_22_1.png" />
+    <Content Include="..\Textures\crops\crop_22_2.png" />
+    <Content Include="..\Textures\crops\crop_22_3.png" />
+    <Content Include="..\Textures\crops\crop_22_4.png" />
+    <Content Include="..\Textures\crops\crop_22_5.png" />
+    <Content Include="..\Textures\crops\crop_22_6.png" />
+    <Content Include="..\Textures\crops\crop_22_7.png" />
+    <Content Include="..\Textures\crops\crop_23_0.png" />
+    <Content Include="..\Textures\crops\crop_23_1.png" />
+    <Content Include="..\Textures\crops\crop_23_2.png" />
+    <Content Include="..\Textures\crops\crop_23_3.png" />
+    <Content Include="..\Textures\crops\crop_23_4.png" />
+    <Content Include="..\Textures\crops\crop_23_5.png" />
+    <Content Include="..\Textures\crops\crop_23_6.png" />
+    <Content Include="..\Textures\crops\crop_23_7.png" />
+    <Content Include="..\Textures\crops\crop_24_1.png" />
+    <Content Include="..\Textures\crops\crop_24_2.png" />
+    <Content Include="..\Textures\crops\crop_24_3.png" />
+    <Content Include="..\Textures\crops\crop_24_4.png" />
+    <Content Include="..\Textures\crops\crop_24_5.png" />
+    <Content Include="..\Textures\crops\crop_24_6.png" />
+    <Content Include="..\Textures\crops\crop_24_7.png" />
+    <Content Include="..\Textures\crops\crop_25_0.png" />
+    <Content Include="..\Textures\crops\crop_25_1.png" />
+    <Content Include="..\Textures\crops\crop_25_2.png" />
+    <Content Include="..\Textures\crops\crop_25_3.png" />
+    <Content Include="..\Textures\crops\crop_25_4.png" />
+    <Content Include="..\Textures\crops\crop_25_5.png" />
+    <Content Include="..\Textures\crops\crop_25_6.png" />
+    <Content Include="..\Textures\crops\crop_25_7.png" />
+    <Content Include="..\Textures\crops\crop_26_1.png" />
+    <Content Include="..\Textures\crops\crop_26_2.png" />
+    <Content Include="..\Textures\crops\crop_26_3.png" />
+    <Content Include="..\Textures\crops\crop_26_4.png" />
+    <Content Include="..\Textures\crops\crop_26_5.png" />
+    <Content Include="..\Textures\crops\crop_26_6.png" />
+    <Content Include="..\Textures\crops\crop_26_7.png" />
+    <Content Include="..\Textures\crops\crop_27_0.png" />
+    <Content Include="..\Textures\crops\crop_27_1.png" />
+    <Content Include="..\Textures\crops\crop_27_2.png" />
+    <Content Include="..\Textures\crops\crop_27_3.png" />
+    <Content Include="..\Textures\crops\crop_27_4.png" />
+    <Content Include="..\Textures\crops\crop_27_5.png" />
+    <Content Include="..\Textures\crops\crop_27_6.png" />
+    <Content Include="..\Textures\crops\crop_27_7.png" />
+    <Content Include="..\Textures\crops\crop_28_1.png" />
+    <Content Include="..\Textures\crops\crop_28_2.png" />
+    <Content Include="..\Textures\crops\crop_28_3.png" />
+    <Content Include="..\Textures\crops\crop_28_4.png" />
+    <Content Include="..\Textures\crops\crop_28_5.png" />
+    <Content Include="..\Textures\crops\crop_28_6.png" />
+    <Content Include="..\Textures\crops\crop_28_7.png" />
+    <Content Include="..\Textures\crops\crop_29_0.png" />
+    <Content Include="..\Textures\crops\crop_29_1.png" />
+    <Content Include="..\Textures\crops\crop_29_2.png" />
+    <Content Include="..\Textures\crops\crop_29_3.png" />
+    <Content Include="..\Textures\crops\crop_29_4.png" />
+    <Content Include="..\Textures\crops\crop_29_5.png" />
+    <Content Include="..\Textures\crops\crop_29_6.png" />
+    <Content Include="..\Textures\crops\crop_29_7.png" />
+    <Content Include="..\Textures\crops\crop_2_1.png" />
+    <Content Include="..\Textures\crops\crop_2_2.png" />
+    <Content Include="..\Textures\crops\crop_2_3.png" />
+    <Content Include="..\Textures\crops\crop_2_4.png" />
+    <Content Include="..\Textures\crops\crop_2_5.png" />
+    <Content Include="..\Textures\crops\crop_2_6.png" />
+    <Content Include="..\Textures\crops\crop_2_7.png" />
+    <Content Include="..\Textures\crops\crop_30_1.png" />
+    <Content Include="..\Textures\crops\crop_30_2.png" />
+    <Content Include="..\Textures\crops\crop_30_3.png" />
+    <Content Include="..\Textures\crops\crop_30_4.png" />
+    <Content Include="..\Textures\crops\crop_30_5.png" />
+    <Content Include="..\Textures\crops\crop_30_6.png" />
+    <Content Include="..\Textures\crops\crop_30_7.png" />
+    <Content Include="..\Textures\crops\crop_31_0.png" />
+    <Content Include="..\Textures\crops\crop_31_1.png" />
+    <Content Include="..\Textures\crops\crop_31_2.png" />
+    <Content Include="..\Textures\crops\crop_31_3.png" />
+    <Content Include="..\Textures\crops\crop_31_4.png" />
+    <Content Include="..\Textures\crops\crop_31_5.png" />
+    <Content Include="..\Textures\crops\crop_31_6.png" />
+    <Content Include="..\Textures\crops\crop_31_7.png" />
+    <Content Include="..\Textures\crops\crop_32_1.png" />
+    <Content Include="..\Textures\crops\crop_32_2.png" />
+    <Content Include="..\Textures\crops\crop_32_3.png" />
+    <Content Include="..\Textures\crops\crop_32_4.png" />
+    <Content Include="..\Textures\crops\crop_32_5.png" />
+    <Content Include="..\Textures\crops\crop_32_6.png" />
+    <Content Include="..\Textures\crops\crop_32_7.png" />
+    <Content Include="..\Textures\crops\crop_33_0.png" />
+    <Content Include="..\Textures\crops\crop_33_1.png" />
+    <Content Include="..\Textures\crops\crop_33_2.png" />
+    <Content Include="..\Textures\crops\crop_33_3.png" />
+    <Content Include="..\Textures\crops\crop_33_4.png" />
+    <Content Include="..\Textures\crops\crop_33_5.png" />
+    <Content Include="..\Textures\crops\crop_33_6.png" />
+    <Content Include="..\Textures\crops\crop_33_7.png" />
+    <Content Include="..\Textures\crops\crop_34_1.png" />
+    <Content Include="..\Textures\crops\crop_34_2.png" />
+    <Content Include="..\Textures\crops\crop_34_3.png" />
+    <Content Include="..\Textures\crops\crop_34_4.png" />
+    <Content Include="..\Textures\crops\crop_34_5.png" />
+    <Content Include="..\Textures\crops\crop_34_6.png" />
+    <Content Include="..\Textures\crops\crop_34_7.png" />
+    <Content Include="..\Textures\crops\crop_35_0.png" />
+    <Content Include="..\Textures\crops\crop_35_1.png" />
+    <Content Include="..\Textures\crops\crop_35_2.png" />
+    <Content Include="..\Textures\crops\crop_35_3.png" />
+    <Content Include="..\Textures\crops\crop_35_4.png" />
+    <Content Include="..\Textures\crops\crop_35_5.png" />
+    <Content Include="..\Textures\crops\crop_35_6.png" />
+    <Content Include="..\Textures\crops\crop_35_7.png" />
+    <Content Include="..\Textures\crops\crop_36_1.png" />
+    <Content Include="..\Textures\crops\crop_36_2.png" />
+    <Content Include="..\Textures\crops\crop_36_3.png" />
+    <Content Include="..\Textures\crops\crop_36_4.png" />
+    <Content Include="..\Textures\crops\crop_36_5.png" />
+    <Content Include="..\Textures\crops\crop_36_6.png" />
+    <Content Include="..\Textures\crops\crop_36_7.png" />
+    <Content Include="..\Textures\crops\crop_37_0.png" />
+    <Content Include="..\Textures\crops\crop_37_1.png" />
+    <Content Include="..\Textures\crops\crop_37_2.png" />
+    <Content Include="..\Textures\crops\crop_37_3.png" />
+    <Content Include="..\Textures\crops\crop_37_4.png" />
+    <Content Include="..\Textures\crops\crop_37_5.png" />
+    <Content Include="..\Textures\crops\crop_37_6.png" />
+    <Content Include="..\Textures\crops\crop_37_7.png" />
+    <Content Include="..\Textures\crops\crop_38_1.png" />
+    <Content Include="..\Textures\crops\crop_38_2.png" />
+    <Content Include="..\Textures\crops\crop_38_3.png" />
+    <Content Include="..\Textures\crops\crop_38_4.png" />
+    <Content Include="..\Textures\crops\crop_38_5.png" />
+    <Content Include="..\Textures\crops\crop_38_6.png" />
+    <Content Include="..\Textures\crops\crop_38_7.png" />
+    <Content Include="..\Textures\crops\crop_39_0.png" />
+    <Content Include="..\Textures\crops\crop_39_1.png" />
+    <Content Include="..\Textures\crops\crop_39_2.png" />
+    <Content Include="..\Textures\crops\crop_39_3.png" />
+    <Content Include="..\Textures\crops\crop_39_4.png" />
+    <Content Include="..\Textures\crops\crop_39_5.png" />
+    <Content Include="..\Textures\crops\crop_39_6.png" />
+    <Content Include="..\Textures\crops\crop_39_7.png" />
+    <Content Include="..\Textures\crops\crop_3_0.png" />
+    <Content Include="..\Textures\crops\crop_3_1.png" />
+    <Content Include="..\Textures\crops\crop_3_2.png" />
+    <Content Include="..\Textures\crops\crop_3_3.png" />
+    <Content Include="..\Textures\crops\crop_3_4.png" />
+    <Content Include="..\Textures\crops\crop_3_5.png" />
+    <Content Include="..\Textures\crops\crop_3_6.png" />
+    <Content Include="..\Textures\crops\crop_3_7.png" />
+    <Content Include="..\Textures\crops\crop_40_1.png" />
+    <Content Include="..\Textures\crops\crop_40_2.png" />
+    <Content Include="..\Textures\crops\crop_40_3.png" />
+    <Content Include="..\Textures\crops\crop_40_4.png" />
+    <Content Include="..\Textures\crops\crop_40_5.png" />
+    <Content Include="..\Textures\crops\crop_40_6.png" />
+    <Content Include="..\Textures\crops\crop_40_7.png" />
+    <Content Include="..\Textures\crops\crop_41_0.png" />
+    <Content Include="..\Textures\crops\crop_41_1.png" />
+    <Content Include="..\Textures\crops\crop_41_2.png" />
+    <Content Include="..\Textures\crops\crop_41_3.png" />
+    <Content Include="..\Textures\crops\crop_41_4.png" />
+    <Content Include="..\Textures\crops\crop_41_5.png" />
+    <Content Include="..\Textures\crops\crop_41_6.png" />
+    <Content Include="..\Textures\crops\crop_41_7.png" />
+    <Content Include="..\Textures\crops\crop_42_1.png" />
+    <Content Include="..\Textures\crops\crop_42_2.png" />
+    <Content Include="..\Textures\crops\crop_42_3.png" />
+    <Content Include="..\Textures\crops\crop_42_4.png" />
+    <Content Include="..\Textures\crops\crop_42_5.png" />
+    <Content Include="..\Textures\crops\crop_42_6.png" />
+    <Content Include="..\Textures\crops\crop_42_7.png" />
+    <Content Include="..\Textures\crops\crop_4_1.png" />
+    <Content Include="..\Textures\crops\crop_4_2.png" />
+    <Content Include="..\Textures\crops\crop_4_3.png" />
+    <Content Include="..\Textures\crops\crop_4_4.png" />
+    <Content Include="..\Textures\crops\crop_4_5.png" />
+    <Content Include="..\Textures\crops\crop_4_6.png" />
+    <Content Include="..\Textures\crops\crop_4_7.png" />
+    <Content Include="..\Textures\crops\crop_5_0.png" />
+    <Content Include="..\Textures\crops\crop_5_1.png" />
+    <Content Include="..\Textures\crops\crop_5_2.png" />
+    <Content Include="..\Textures\crops\crop_5_3.png" />
+    <Content Include="..\Textures\crops\crop_5_4.png" />
+    <Content Include="..\Textures\crops\crop_5_5.png" />
+    <Content Include="..\Textures\crops\crop_5_6.png" />
+    <Content Include="..\Textures\crops\crop_5_7.png" />
+    <Content Include="..\Textures\crops\crop_6_1.png" />
+    <Content Include="..\Textures\crops\crop_6_2.png" />
+    <Content Include="..\Textures\crops\crop_6_3.png" />
+    <Content Include="..\Textures\crops\crop_6_4.png" />
+    <Content Include="..\Textures\crops\crop_6_5.png" />
+    <Content Include="..\Textures\crops\crop_6_6.png" />
+    <Content Include="..\Textures\crops\crop_6_7.png" />
+    <Content Include="..\Textures\crops\crop_7_0.png" />
+    <Content Include="..\Textures\crops\crop_7_1.png" />
+    <Content Include="..\Textures\crops\crop_7_2.png" />
+    <Content Include="..\Textures\crops\crop_7_3.png" />
+    <Content Include="..\Textures\crops\crop_7_4.png" />
+    <Content Include="..\Textures\crops\crop_7_5.png" />
+    <Content Include="..\Textures\crops\crop_7_6.png" />
+    <Content Include="..\Textures\crops\crop_7_7.png" />
+    <Content Include="..\Textures\crops\crop_8_1.png" />
+    <Content Include="..\Textures\crops\crop_8_2.png" />
+    <Content Include="..\Textures\crops\crop_8_3.png" />
+    <Content Include="..\Textures\crops\crop_8_4.png" />
+    <Content Include="..\Textures\crops\crop_8_5.png" />
+    <Content Include="..\Textures\crops\crop_8_6.png" />
+    <Content Include="..\Textures\crops\crop_8_7.png" />
+    <Content Include="..\Textures\crops\crop_9_0.png" />
+    <Content Include="..\Textures\crops\crop_9_1.png" />
+    <Content Include="..\Textures\crops\crop_9_2.png" />
+    <Content Include="..\Textures\crops\crop_9_3.png" />
+    <Content Include="..\Textures\crops\crop_9_4.png" />
+    <Content Include="..\Textures\crops\crop_9_5.png" />
+    <Content Include="..\Textures\crops\crop_9_6.png" />
+    <Content Include="..\Textures\crops\crop_9_7.png" />
+    <Content Include="..\Textures\vhs\frame_0_delay-0.08s.png" />
+    <Content Include="..\Textures\vhs\frame_1_delay-0.08s.png" />
+    <Content Include="..\Textures\vhs\frame_2_delay-0.08s.png" />
+    <Content Include="..\Textures\vhs\frame_3_delay-0.08s.png" />
+    <Content Include="..\Textures\vhs\frame_4_delay-0.08s.png" />
+    <Content Include="..\Textures\weather\weather_1_0.png" />
+    <Content Include="..\Textures\weather\weather_1_1.png" />
+    <Content Include="..\Textures\weather\weather_1_2.png" />
+    <Content Include="..\Textures\weather\weather_1_3.png" />
+    <Content Include="..\Textures\weather\weather_2_1.png" />
+    <Content Include="..\Textures\weather\weather_2_2.png" />
+    <Content Include="..\Textures\weather\weather_2_3.png" />
+    <Content Include="..\Textures\weather\weather_3_0.png" />
+    <Content Include="..\Textures\weather\weather_3_1.png" />
+    <Content Include="..\Textures\weather\weather_3_2.png" />
+    <Content Include="..\Textures\weather\weather_3_3.png" />
+    <Content Include="..\Textures\weather\weather_4_1.png" />
+    <Content Include="..\Textures\weather\weather_4_2.png" />
+    <Content Include="..\Textures\weather\weather_4_3.png" />
+    <Content Include="..\Textures\weather\weather_5_0.png" />
+    <Content Include="..\Textures\weather\weather_5_1.png" />
+    <Content Include="..\Textures\weather\weather_5_2.png" />
+    <Content Include="..\Textures\weather\weather_5_3.png" />
+    <Content Include="..\Textures\weather\weather_6_1.png" />
+    <Content Include="..\Textures\weather\weather_6_2.png" />
+    <Content Include="..\Textures\weather\weather_6_3.png" />
+    <Content Include="..\Textures\weather\weather_7_0.png" />
+    <Content Include="..\Textures\weather\weather_7_1.png" />
+    <Content Include="..\Textures\weather\weather_7_2.png" />
+    <Content Include="..\Textures\weather\weather_7_3.png" />
+    <Content Include="..\Textures\weather\weather_8_1.png" />
+    <Content Include="..\Textures\weather\weather_8_2.png" />
+    <Content Include="..\Textures\weather\weather_8_3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(SolutionDir)..\..\RimWorldWin.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>echo F|xcopy "$(ProjectDir)..\About\About-$(ConfigurationName).xml" "$(TargetDir)..\About\About.xml" /C /Y /K /Q /D
+IF /I "$(ConfigurationName)" == "Release"; echo F|xcopy "$(ProjectDir)..\About\Preview.png" "$(TargetDir)..\About\Preview.png" /S /C /Y /K /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Assemblies" "$(TargetDir)..\Assemblies" /S /C /Y /K /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Defs" "$(TargetDir)..\Defs" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Patches" "$(TargetDir)..\Patches" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Languages" "$(TargetDir)..\Languages" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Sounds" "$(TargetDir)..\Sounds" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Textures" "$(TargetDir)..\Textures" /S /C /Y /K /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; IF EXIST "$(ProjectDir)..\LICENSE"; copy "$(ProjectDir)..\LICENSE" "$(TargetDir)..\LICENSE" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

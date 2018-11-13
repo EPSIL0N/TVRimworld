@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TVChannels.ChannelDef>
+        <defName>WeatherTiny</defName>
+        <showWorker>TVChannels.ShowWorkerWeather</showWorker>
+        <shows>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_1_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_1_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_1_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_1_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_2_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_2_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_2_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_3_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_3_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_3_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_3_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_4_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_4_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_4_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_5_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_5_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_5_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_5_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_6_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_6_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_6_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_7_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_7_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_7_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_7_0</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>0.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>weather/weather_8_1</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_8_2</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                    <li>
+                        <texPath>weather/weather_8_3</texPath>
+
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+        </shows>
+    </TVChannels.ChannelDef>
+</Defs>

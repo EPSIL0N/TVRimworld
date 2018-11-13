@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TVChannels.ChannelDef>
+        <defName>Princess</defName>
+        <secondsBetweenShows>5</secondsBetweenShows>
+        <showWorker>TVChannels.ShowWorkerRandom</showWorker>
+        <shows>
+            
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED01.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED02.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED03.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED04.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED05.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED06.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED07.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED08.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED09.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED10.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED11.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED12.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED13.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED14.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED15.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED16.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED17.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED18.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED19.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED20.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED21.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED22.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED23.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED24.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED25.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED26.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED27.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED28.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED29.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED30.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED31.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED32.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED33.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED34.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED35.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED36.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED37.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED38.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED39.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED40.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED41.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED42.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/ED43.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA01.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA02.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA03.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA04.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA05.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA06.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA07.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA08.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA09.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA10.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA11.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA12.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA13.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA14.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA15.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA16.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA17.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA18.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA19.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA20.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA21.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA22.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA23.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA24.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA25.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA26.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA27.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA28.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA29.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA30.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA31.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+             <li Class="CompAnimated.CompProperties_AnimatedOver">
+                <secondsBetweenFrames>3.15</secondsBetweenFrames>
+                <stillFrames>
+                    <li>
+                        <texPath>princess/LVA32.SPD</texPath>
+                        <shaderType>CutoutComplex</shaderType>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </li>
+                </stillFrames>
+            </li>
+            
+            
+        </shows>
+    </TVChannels.ChannelDef>
+</Defs>

@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TV_Channels\Assemblies\TV_Channels.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TV_Channels\Source\obj\Debug\TV_Channels.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TV_Channels\Source\obj\Debug\TV_Channels.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TV_Channels\Source\obj\Debug\TV_Channels.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TV_Channels\Source\obj\Debug\TV_Channels.csproj.CopyComplete
